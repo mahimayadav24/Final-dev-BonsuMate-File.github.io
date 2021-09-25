@@ -274,6 +274,7 @@ body, html {
     bottom: 0;
     /* display: block; */
 }
+
 .Bg__Icon__next #Img__Three {
     position: absolute;
     background-image: url('../Assets/options (1) 1.png');
@@ -937,6 +938,12 @@ input[type="number"] {
     color: #404040;
 }
 
+@media screen and (max-width: 640px) {
+    .Color__Picker input[type="text"] {
+        transform: translatex(8px);
+    }
+}
+
 .Color__Picker input[type="color"] {
     display: block;
     width: 10%;
@@ -1458,7 +1465,7 @@ input[type="text"]:invalid {
 
 .check p {
     text-align: right;
-    padding: 0px 99px 0px 0px;
+    padding: 0px 110px 0px 0px;
     transform: translateY(40px);
     font-size: calc(10pt + 0.15vw);
     font-family: 'Montserrat', sans-serif;
@@ -1881,7 +1888,7 @@ outline: none;
     font-family: 'Montserrat', sans-serif;
     color: #404040;
     position: absolute;
-    right: 134px;
+    right: 145px;
 }
 
 /* 3rd */
@@ -1945,7 +1952,7 @@ outline: none;
     font-family: 'Montserrat', sans-serif;
     color: #404040;
     position: absolute;
-    right: 58px;
+    right: 64px;
 }
 
 /* 4rth */
@@ -2009,7 +2016,7 @@ outline: none;
     font-family: 'Montserrat', sans-serif;
     color: #404040;
     position: absolute;
-    right: 165px;
+    right: 171px;
 }
 
 /* 5th */
@@ -2073,7 +2080,7 @@ outline: none;
     font-family: 'Montserrat', sans-serif;
     color: #404040;
     position: absolute;
-    right: 40px;
+    right: 47px;
 }
 
 .form-grouprs2 {
@@ -2135,7 +2142,7 @@ outline: none;
     font-family: 'Montserrat', sans-serif;
     color: #404040;
     position: absolute;
-    right: 131px;
+    right: 140px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -2145,23 +2152,32 @@ outline: none;
     .Color__Picker1 {
         width: 100%;
     }
-}
-
-@media screen and (max-width: 640px) {
-    .check p {
-        padding: 0px 40px 0px 0px;
-    }
-    #Flex__Check p {
-        right: 70px;
-    }
-    #Flex__Checkk p {
-        right: 90px;
-    }
     #Flex__Checks p {
-        transform: translateX(23px);
+        right: 72px;
+    }
+    #Flex__Checkk1 p {
+        right: 59px;
     }
     #Flex__Checkk2 p {
-        right: 59px;
+        right: 145px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .check p {
+        padding: 0px 53px 0px 0px;
+    }
+    #Flex__Check p {
+        right: 85px;
+    }
+    #Flex__Checks p {
+        transform: translateX(5px);
+    }
+    #Flex__Checkk2 p {
+        right: 109px;
+    }
+    #Flex__Checkk p {
+        right: 109px;
     }
 }
 
